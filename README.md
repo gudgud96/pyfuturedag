@@ -18,8 +18,8 @@ pip install pyfuturedag
 """
 from pyfuturedag import FutureDAG, Node
 
-# example of a function
-def print_func(num):
+# wrap your desired function as an async coroutine
+async def print_func(num):
     print("printing", num)
 
 # initialize dag
