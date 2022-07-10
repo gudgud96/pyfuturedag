@@ -1,6 +1,6 @@
 ## PyFutureDAG
 
-A simple, lightweight Python DAG implementation using [asyncio]() futures, in the style of [C++ folly FutureDAG]().
+A simple, lightweight Python DAG implementation using [asyncio](https://docs.python.org/3/library/asyncio.html) futures, in the style of [C++ folly FutureDAG](https://github.com/facebook/folly/blob/main/folly/experimental/FutureDAG.h).
 
 ### Installation
 ```
